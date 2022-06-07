@@ -1,0 +1,46 @@
+@media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+    }
+    header h2 {
+       display: block;
+       width: 100%;
+       text-align: center;
+    }
+    header menu {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .root {
+        width: 90%;
+    }
+
+    .unicorns--list {
+        flex-direction: column;
+    }
+
+    .unicorns--list figure,
+    .unicorns--list figure:last-of-type { 
+        margin: 0 auto;
+    }
+
+    .article--wrapper {
+        flex-direction: column;
+    }
+
+    .article--wrapper iframe {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .newsletter {
+        margin-bottom: 2rem;
+    }
+
+    .main--title {
+        padding: 20px;
+        padding-top: 40px;
+    }
+}

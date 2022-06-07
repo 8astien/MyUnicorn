@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluation Frontend</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css" type="text/css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="responsive.css" type="text/css">
+
+</head>
+
+<body>
+    <header>
+        <h2 class="header--title">MyUnicorn</h2>
+        <menu>
+            <li class=" menu--item upper">
+                <a href="#article--principle">Le Principe</a>
+                
+            </li>
+            <li class=" menu--item upper">
+                <a href="#article--unicorns">Nos Licornes</a>
+                
+            </li>
+            <li class="menu--item upper">
+                <a href="#article--location">Nous trouver</a>
+                
+            </li>
+        </menu>
+    </header>
+    <main>
+        <h1 class="main--title">
+            Un jour, une licorne
+        </h1>
+        <div class="root">
+            <article id="article--principle">
+                <h3 class="article--title">
+                    <i class="fa-regular fa-star"></i>
+                    Le principe
+                </h3>
+                <p class="article--content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum dapibus
+                    ante, eu aliquam ante
+                    euismod eleifend. Ut malesuada augue ut luctus pellentesque. Aenean id varius ipsum. Nunc malesuada
+                    ex ut ipsum interdum vestibulum. Integer facilisis finibus orci, sit amet pretium diam placerat
+                    vitae. Nunc auctor tincidunt mollis. Nullam quis turpis sed lorem elementum semper eget semper
+                    risus. In nec mauris aliquam, congue metus euismod, cursus leo. Vivamus laoreet commodo leo, ut
+                    cursus justo blandit in. Aenean pretium mi a auctor pulvinar. Mauris sodales sollicitudin sodales.
+                    Sed mollis sed lectus id facilisis. Quisque pharetra a purus eget porttitor. Proin rhoncus risus non
+                    mauris iaculis sodales. Pellentesque euismod dui erat, non sodales ipsum sollicitudin sed.</p>
+                <p class="article--content"> Donec nisi eros, luctus id pretium eget, consequat elementum risus. Fusce
+                    eleifend lacinia orci eu
+                    iaculis. Vestibulum vestibulum justo quis commodo congue. Aliquam purus leo, dictum in nisl at,
+                    pellentesque bibendum mi. Nulla convallis mi eget nisl convallis dictum. Vestibulum a massa lacus.
+                    Aenean quis enim diam.
+                </p>
+
+            </article>
+            <article id="article--unicorns">
+                <h3 class="article--title">
+                    <i class="fa-regular fa-star"></i>
+                    Nos licornes
+                </h3>
+                <div class="unicorns--list">
+                    <figure>
+                        <img class="unicorn--img" src="./assets/unicorns/photo1.jpg" alt="Présentation de nos licornes en photo">
+                        <figcaption class="unicorn--caption">Lulu Confetty</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="unicorn--img" src="./assets/unicorns/photo2.jpg" alt="Présentation de nos licornes en photo">
+                        <figcaption class="unicorn--caption">Lapillon Magik</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="unicorn--img" src="./assets/unicorns/photo3.jpg" alt="Présentation de nos licornes en photo">
+                        <figcaption class="unicorn--caption">El Ninjacorn</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="unicorn--img" src="./assets/unicorns/photo4.jpg" alt="Présentation de nos licornes en photo">
+                        <figcaption class="unicorn--caption">Sweety Candy</figcaption>
+                    </figure>
+                </div>
+            </article>
+            <article id="article--location">
+                <h3 class="article--title">
+                    <i class="fa-regular fa-star"></i>
+                    Nous trouver
+                </h3>
+                <div class="article--wrapper">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.575131509834!2d47.52384321490547!3d-18.905920587185705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21f07e011f9b81bd%3A0xcdb0ef49d7b820fd!2sArabe%20Rahezavana%2C%20Antananarivo%2C%20Madagascar!5e0!3m2!1sfr!2sfr!4v1654593319911!5m2!1sfr!2sfr"
+                         height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <div class="article--half">
+                        <h4 class="article--subtitle">Notre élevage de licornes est situé au :</h4>
+                        <ul>
+                            <li>Analakely Market</li>
+                            <li>Arabe Rahezavana, Antananarivo, Madagascar</li>
+                            <li>01.22.45.67.90</li>
+                        </ul>
+
+                    
+                        <h4 class="article--subtitle">Newsletter</h4>
+                        <form action="post" class="newsletter">
+                            <label for="input--newsletter">
+                                Abonnez-vous simplement à notre newsletter mensuelle !
+                            </label>
+                            <input type="text" id="input--newsletter" placeholder="votre@email.fr">
+                            <input type="button" value="Valider">
+                        </form>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <span>2016 © WebForce 3</span> 
+    </footer>
+</body>
+
+</html>
