@@ -81,7 +81,7 @@ main {
 
 .main--title {
     font-size: 1.6rem;
-    color: #EB43A3;
+    color: #C55394;
     background-image: url("assets/rainbow.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -204,7 +204,7 @@ main {
 
 footer {
     margin-top: 2rem;
-    background-color: #EB43A3;
+    background-color: #E577B5;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
